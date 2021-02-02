@@ -6,7 +6,7 @@ body {
   font-family: "Roboto Condensed", Arial, sans-serif;
   line-height: 1.5em;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   color: #666;
   height: 100%;
 }
@@ -18,14 +18,14 @@ body > .container {
 .left {
   height: 100%;
   padding-top: 100px;
-  font-size: 11px;
+  font-size: 16px;
   color: #666;
   background: #f2f3f7;
   border-right: 15px solid #efefef;
 }
 
 .left strong {
-  font-size: 16px;
+  font-size: 20px;
   color: #4A4A4A;
   font-weight: normal;
 }
@@ -33,6 +33,10 @@ body > .container {
 .profile-about {
   margin-top: 10px;
   color: #8C8C8C;
+}
+
+.page {
+  padding-top: 100px;
 }
 
 hr {
@@ -46,7 +50,7 @@ hr {
 span.time, span.categories {
   color: #ADADAD;
   margin-bottom: 5px;
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -57,7 +61,7 @@ h1, h2, h3 {
 
 h1 {
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 h2, h3 {
@@ -81,6 +85,7 @@ a:hover {
   background-image: url("/img/penguin_bg_2.jpg");
   background-size: cover;
   background-position: bottom center;
+  padding-right: 20%;
 }
 
 .sidebar-nav {
@@ -105,7 +110,7 @@ div.content pre {
   color: #FFF;
   overflow-x: auto;
   font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-  font-size: 12px;
+  font-size: 16px;
   border: none;
 }
 
@@ -117,7 +122,7 @@ footer {
   margin-bottom: 3em;
   padding-top: 10px;
   color: #C2C2C2;
-  font-size: 11px;
+  font-size: 14px;
   bottom: 0;
   padding-bottom: 10px;
 }
@@ -127,7 +132,7 @@ div.post-content .btn-tags {
 
 /* Pagination */
 .PageNavigation {
-  font-size: 14px;
+  font-size: 18px;
   display: block;
   width: auto;
   overflow: hidden;
@@ -160,7 +165,7 @@ div.post-content .btn-tags {
   margin: 0 5px;
 }
 .social li a {
-  font-size: 16px;
+  font-size: 20px;
   color: #969394;
 }
 .social li a:hover {
@@ -184,8 +189,19 @@ div.post-content .btn-tags {
     max-width: 255px;
   }
 }
+
 @media (max-width: 768px) {
   div.col-sm-3 {
     margin-top: 30px;
   }
+}
+
+.index-out {
+  display: table;
+  height: 100%;
+}
+
+.index-in {
+  vertical-align: middle;
+  display: table-cell;
 }

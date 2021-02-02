@@ -1,7 +1,7 @@
 ---
 layout: page
 title: O mně
-permalink: /about/
+permalink: /about
 order: 2
 ---
 
