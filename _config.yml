@@ -19,3 +19,11 @@ social:
       link: "#"
 
 markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
+  - old
