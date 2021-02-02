@@ -21,40 +21,37 @@
 
   <body>
     <div class="container">
-      <div class="col-sm-3">
-        <div class="fixed-condition">
-          <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
-          {% if site.about %}
-            <div class="profile-about">
-              {{ site.about }}
-            </div>
-          {% endif %}
-          <div class="social">
-            <ul>
-              {% for link in site.social %}
-                <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
-              {% endfor %}
-            </ul>
+      <div class="col-sm-3 left">
+        <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
+        {% if site.about %}
+          <div class="profile-about">
+            {{ site.about }}
           </div>
-          <hr />
-          <ul class="sidebar-nav">
-            {% assign pages = site.pages | sort: 'order' %}
-            {% for page_ in pages %}
-            {% if page_.title and page_.hide != true %}
-            <li><a class="about" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.title }}</a></li>
-            {% endif %}
+        {% endif %}
+        <div class="social">
+          <ul>
+            {% for link in site.social %}
+              <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
             {% endfor %}
           </ul>
         </div>
-        <!-- end /.fixed-condition -->
+        <hr />
+        <ul class="sidebar-nav">
+          {% assign pages = site.pages | sort: 'order' %}
+          {% for page_ in pages %}
+          {% if page_.title and page_.hide != true %}
+          <li><a class="about" href="{{ page_.url | prepend: site.baseurl }}">{{ page_.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
       </div>
-      <div class="col-sm-8 col-offset-1 main-layout">
+      <div class="col-sm-9 col-offset-1 main-layout">
         {{ content }}
         <footer>
           &copy; {{ site.author }}
         </footer>
       </div>
-      <!-- end /.col-sm-8 -->
+      <!-- end /.col-sm-9 -->
     </div>
     <!-- end /.container -->
 
