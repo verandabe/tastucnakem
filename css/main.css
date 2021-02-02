@@ -15,9 +15,34 @@ body > .container {
   height: 100%;
 }
 
+
+@media (min-width: 768px) {
+ .left {
+    height: 100%;
+    padding-top: 100px;
+  }
+
+  .page {
+    padding-top: 100px;
+  }
+
+  .index-out {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+ .left {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .page {
+    padding-top: 20px;
+  }
+}
+
 .left {
-  height: 100%;
-  padding-top: 100px;
   font-size: 16px;
   color: #666;
   background: #f2f3f7;
@@ -33,10 +58,6 @@ body > .container {
 .profile-about {
   margin-top: 10px;
   color: #8C8C8C;
-}
-
-.page {
-  padding-top: 100px;
 }
 
 hr {
@@ -84,7 +105,7 @@ a:hover {
   height: 100%;
   background-image: url("/img/penguin_bg_2.jpg");
   background-size: cover;
-  background-position: bottom center;
+  background-position: 65% 50%;
   padding-right: 20%;
 }
 
@@ -126,6 +147,7 @@ footer {
   bottom: 0;
   padding-bottom: 10px;
 }
+
 div.post-content .btn-tags {
   margin-bottom: 3px;
 }
@@ -198,7 +220,6 @@ div.post-content .btn-tags {
 
 .index-out {
   display: table;
-  height: 100%;
 }
 
 .index-in {
