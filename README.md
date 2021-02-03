@@ -2,6 +2,10 @@
 
 The web is developed using [Jekyll](https://jekyllrb.com/).
 
+## Requierements
+
+* `bundler`
+
 ## Local installation
 
 ```bash
