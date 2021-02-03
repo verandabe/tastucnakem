@@ -5,4 +5,4 @@ permalink: /omne
 order: 2
 ---
 
-Jsem Veranda Burger
+Jsem Veranda Burgerov

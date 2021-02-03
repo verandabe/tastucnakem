@@ -107,6 +107,7 @@ a:hover {
   background-size: cover;
   background-position: 65% 50%;
   padding-right: 20%;
+  background-attachment: fixed;
 }
 
 .sidebar-nav {
