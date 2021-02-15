@@ -8,17 +8,23 @@ body {
   font-weight: 300;
   font-size: 20px;
   color: #666;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
   height: 100%;
 }
 
 body > .container {
-  height: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: auto;
 }
 
 
 @media (min-width: 768px) {
  .left {
-    height: 100%;
     padding-top: 100px;
   }
 
@@ -47,6 +53,7 @@ body > .container {
   color: #666;
   background: #f2f3f7;
   border-right: 15px solid #efefef;
+  flex: auto;
 }
 
 .left strong {
@@ -102,12 +109,12 @@ a:hover {
 /* Layout */
 .main-layout {
   background: #fff;
-  height: 100%;
   background-image: url("/img/penguin_bg_2.jpg");
   background-size: cover;
   background-position: 65% 50%;
   padding-right: 20%;
   background-attachment: fixed;
+  flex: auto;
 }
 
 .sidebar-nav {
