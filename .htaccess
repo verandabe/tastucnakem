@@ -1,0 +1,2 @@
+ErrorDocument 404 /404.html
+Redirect permanent /blog https://blog.tastucnakem.cz/

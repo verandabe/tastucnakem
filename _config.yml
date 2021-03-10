@@ -10,7 +10,7 @@ robots: index,follow
 google_analytics: UA-XXXXXXXX-Y
 
 permalink: pretty
-include: ["_pages"]
+include: ["_pages", ".htaccess"]
 
 social:
     - icon: fa-instagram
