@@ -5,7 +5,7 @@ permalink: /spisovatelkou
 order: 3
 ---
 
-Stát se spisovatelkou je můj sen už od 5 let, kdy jsem napsala svůj první příběh. Od té chvíle mě to nepustilo a příběhy píšu doteď.
+Stát se spisovatelkou je můj sen už od 5 let, kdy jsem napsala svůj první příběh. Od té chvíle mě to nepustilo a příběhy píšu doteď.
 
 ## Moje knížky
 
@@ -13,12 +13,12 @@ Stát se spisovatelkou je můj sen už od 5 let, kdy jsem napsala svůj první p
 - Duše existence (2013)
 - Sedmička (2014)
 - Poslední cígareta pro Lipa (2017)
-- **Maršmeloun pro Ráchel - povídka ve sbírce Nejkrásnější dárek** (YOLI 2020)
+- **Maršmeloun pro Ráchel – povídka ve sbírce Nejkrásnější dárek** (YOLI 2020)
 
 ## Literární úspěchy
 - Obdržela jsem cenu **Zlatý oříšek** ČT za literární činnost (2013)
-- Moje knížka **Bajty a šupiny** se dostala do finále CooBoo hledá talent (2019)
-- **Maršmeloun pro Ráchel** se stal jednou z vítězných vánočních povídek v literární soutěži od YOLI (2020)
+- Moje knížka **Bajty a šupiny** se dostala do finále CooBoo hledá talent (2019)
+- **Maršmeloun pro Ráchel** se stal jednou z vítězných vánočních povídek v literární soutěži od YOLI (2020)
 
 ## Rozepsáno
 - **Bajty a šupiny** (humor, Brno, romantika, mořské panny, IT, studium na VŠ)
